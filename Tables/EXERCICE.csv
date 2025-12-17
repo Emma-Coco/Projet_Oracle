@@ -1,0 +1,56 @@
+"EXERCISEID","NAME_OF_EXERCISE","DIFFICULTY_LEVEL","TARGET_MUSCLE_GROUP","BODY_PART","EQUIPMENT_NEEDED","BENEFIT","BURNS_CALORIES_PER_30_MIN"
+1,"Decline Push-ups","Advanced","Shoulders, Triceps","Legs","Cable Machine","Improves shoulder health and posture",342,58
+2,"Bear Crawls","Intermediate","Back, Core, Shoulders","Chest","Step or Box","Strengthens lower abs",357,16
+3,"Dips","Intermediate","Quadriceps, Glutes","Arms","Step or Box","Builds chest strength",359,63
+4,"Mountain Climbers","Advanced","Biceps, Forearms","Shoulders","Parallel Bars or Chair","Improves coordination and cardiovascular health",351,65
+5,"Bicep Curls","Advanced","Chest, Triceps","Abs","Wall","Targets obliques and improves core rotation",329,36
+6,"Leg Press","Beginner","Core, Obliques","Arms","Resistance Band or Cable Machine","Builds explosive power",374,56
+7,"Thrusters","Advanced","Core","Shoulders","None or Dumbbells","Strengthens back and improves posture",328,94
+8,"Turkish Get-ups","Intermediate","Back, Biceps","Back","Pull-up Bar","Improves core stability and upper body strength",363,56
+9,"Glute Bridges","Beginner","Upper Chest, Triceps","Chest","Barbell","Full body workout",349,51
+10,"Step-ups","Intermediate","Core, Lower Back","Forearms","Low Bar or TRX","Builds chest strength",326,31
+11,"Plank","Intermediate","Lower Chest, Triceps","Abs","Wall","Targets obliques and improves core rotation",356,2
+12,"Pull-ups","Advanced","Chest, Triceps","Shoulders","Dumbbells","Strengthens lower body",361,13
+13,"Lunges","Advanced","Core, Shoulders, Hips","Abs","Bench or Sturdy Surface","Isolates triceps",357,96
+14,"Plyo Squats","Advanced","Shoulders, Triceps","Chest","Barbell","Improves core stability",356,83
+15,"Squats","Advanced","Rear Deltoids, Upper Back","Legs","Resistance Band or Cable Machine","Improves core stability and balance",359,74
+16,"Frog Jumps","Advanced","Quadriceps, Hamstrings, Glutes","Forearms","Bench or Sturdy Surface","Strengthens back and improves posture",342,47
+17,"Deadlifts","Intermediate","Core, Shoulders, Legs","Chest","Wall","Isolates and strengthens triceps",350,23
+18,"Prone Cobras","Advanced","Upper Chest, Triceps","Chest","Bench or Chair","Strengthens back and legs",356,6
+19,"Lat Pulldowns","Intermediate","Core, Shoulders, Hips","Back","Bench, Barbell","Builds chest strength",350,66
+20,"Russian Twists","Beginner","Core","Forearms","Resistance Band","Builds shoulder width",368,66
+21,"Shoulder Press","Advanced","Chest, Triceps","Back","Wall","Strengthens back and legs",339,35
+22,"Tricep Dips","Advanced","Back, Biceps","Arms","None or Dumbbells","Improves core stability and balance",334,26
+23,"Kettlebell Swings","Beginner","Shoulders, Upper Back","Legs","Bench or Sturdy Surface","Advanced core exercise",353,89
+24,"Resistance Band Pull-Aparts","Beginner","Full Body","Legs","Dumbbells","Targets biceps and forearms",346,31
+25,"Leg Raises","Beginner","Glutes, Hamstrings","Abs","Cable Machine or Resistance Band","Improves lower back strength",361,2
+26,"Tricep Extensions","Beginner","Quadriceps, Glutes","Shoulders","Barbell","Strengthens core and improves mobility",364,95
+27,"Dead Bugs","Beginner","Triceps","Shoulders","Resistance Band","Builds lower body power",348,23
+28,"Scissors Kicks","Advanced","Shoulders, Upper Back","Forearms","None or Dumbbells","Strengthens core and improves mobility",357,81
+29,"Plyometric Push-ups","Intermediate","Lower Abs","Legs","Bench, Barbell","Improves unilateral leg strength and balance",330,57
+30,"Push Ups","Intermediate","Core, Obliques","Back","Bench or Step","Strengthens back and improves posture",359,4
+31,"Bench Press","Intermediate","Shoulders","Shoulders","Bench, Barbell","Targets lower abs",350,88
+32,"Inverted Rows","Intermediate","Shoulders, Triceps","Arms","Resistance Band","Strengthens shoulders",369,34
+33,"Seated Rows","Intermediate","Back, Core, Shoulders","Legs","Cable Machine or Resistance Band","Strengthens lower abs",368,91
+34,"Calf Raises","Beginner","Rear Deltoids, Upper Back","Chest","Kettlebell","Improves balance and leg strength",333,31
+35,"Reverse Lunges","Advanced","Lower Abs","Back","Step or Box","Targets obliques and improves core rotation",350,36
+36,"Deadlift","Beginner","Core","Legs","None or Dumbbells","Strengthens core and improves mobility",337,04
+37,"Wall Angels","Advanced","Shoulders, Upper Back","Chest","Box or Platform","Strengthens lower abs",345,11
+38,"Lateral Raises","Intermediate","Shoulders","Chest","Parallel Bars or Chair","Targets biceps and forearms",368,48
+39,"Face Pulls","Advanced","Quadriceps, Glutes","Arms","Bench or Chair","Builds lower body power and endurance",366,43
+40,"Burpees","Advanced","Back, Hamstrings, Glutes","Chest","Cable Machine or Resistance Band","Strengthens lower abs and hip flexors",346,69
+41,"Push-ups","Beginner","Lower Abs, Hip Flexors","Abs","Dumbbells","Builds explosive power",335,25
+42,"Box Jumps","Intermediate","Full Body, Core, Shoulders","Abs","Bench or Step","Strengthens lower abs and hip flexors",340,61
+43,"Rows","Advanced","Upper Back, Rear Deltoids","Chest","None or Dumbbells","Improves posture and back strength",340,72
+44,"Bird Dogs","Beginner","Back, Core, Shoulders","Abs","Box or Platform","Builds unilateral leg strength and balance",335,87
+45,"Dragon Flags","Beginner","Upper Back, Rear Deltoids","Shoulders","Resistance Band or Cable Machine","Builds explosive upper body power",346,59
+46,"Bicycle Crunches","Advanced","Core, Lower Back","Abs","Low Bar or TRX","Targets lower abs",332,18
+47,"Flutter Kicks","Beginner","Glutes, Hamstrings, Core","Arms","Barbell","Strengthens core and improves mobility",347,56
+48,"Bulgarian Split Squats","Advanced","Shoulders, Triceps","Forearms","Bench or Step","Improves core stability and balance",289,17
+49,"Superman","Intermediate","Glutes, Hamstrings, Core","Abs","Cable Machine","Builds unilateral leg strength",330,85
+50,"Incline Push-ups","Advanced","Core, Lower Back","Forearms","Low Bar or TRX","Targets biceps and forearms",350,32
+51,"Jumping Jacks","Beginner","Shoulders, Triceps","Forearms","None or Dumbbell","Improves shoulder health and posture",365,46
+52,"Renegade Rows","Intermediate","Shoulders, Upper Back","Back","Barbell","Improves back strength and posture",342,13
+53,"Windshield Wipers","Intermediate","Core","Chest","Bench or Sturdy Surface","Enhances full-body coordination and stability",347,18
+54,"Zottman Curls","Advanced","Triceps, Chest","Legs","Box or Platform","Strengthens triceps and chest",331,38
+55,"Pistol Squats","Beginner","Shoulders, Upper Back","Legs","Dumbbells or Barbell","Builds explosive upper body power",333,46
