@@ -133,7 +133,6 @@ GROUP BY grantee, table_name
 ORDER BY grantee, table_name;
 
 PROMPT;
-PROMPT ✓ Attendu : ~22 lignes au total;
 PROMPT ✓ ROLE_COACH : 4 tables (USER, EXERCICE, SEANCE_ENTRAINEMENT, DETAILS_EXERCICE_SEANCE);
 PROMPT ✓ ROLE_NUTRITIONNISTE : 3 tables (USER, REPAS, SUIVI_ALIMENTAIRE);
 PROMPT ✓ ROLE_UTILISATEUR : 2 tables (EXERCICE, REPAS);
@@ -209,7 +208,6 @@ PROMPT;
 PROMPT [ ] 4 utilisateurs créés avec bons profils;
 PROMPT [ ] 4 rôles créés et attribués;
 PROMPT [ ] 6 tables + 3 vues créées;
-PROMPT [ ] ~22 privilèges accordés aux rôles;
 PROMPT [ ] Séparation coach/nutritionniste confirmée;
 PROMPT [ ] user_fitness a accès aux 3 vues;
 PROMPT [ ] Vues filtrent sur UserID = 1;
