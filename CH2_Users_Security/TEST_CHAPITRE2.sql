@@ -2,8 +2,7 @@
 -- SCRIPT DE TEST COMPLET - CHAPITRE 2
 -- Tests automatiques de validation
 -- ============================================
--- Ce script teste TOUS les aspects de votre Chapitre 2
--- Exécutez-le en suivant les instructions ci-dessous
+-- Ce script teste TOUS les aspects du Chapitre 2
 -- ============================================
 
 
