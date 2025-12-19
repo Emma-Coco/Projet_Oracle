@@ -1,44 +1,19 @@
 -- ============================================
 -- CHAPITRE 2.1 : CREATION DES UTILISATEURS
--- Fichier : 02_users_et_privileges.sql
 -- Connexion requise : SYSTEM
 -- Date : Décembre 2025
 -- ============================================
 -- DESCRIPTION :
--- Ce script crée les 4 utilisateurs de l'application fitness/nutrition
--- avec leurs mots de passe, privilèges système et quotas d'espace disque.
+-- Ce script crée les quatre utilisateurs Oracle de l'application
+-- fitness / nutrition, en définissant leurs mots de passe,
+-- tablespaces, quotas d’espace disque et privilèges système
+-- nécessaires à la connexion.
+--
+-- L’administrateur dispose de privilèges étendus pour la gestion
+-- du schéma, tandis que les autres utilisateurs disposent
+-- uniquement du privilège CREATE SESSION.
+-- Les rôles applicatifs sont attribués dans un script séparé.
 -- ============================================
--- JUSTIFICATION DES CHOIX :
---
--- CHOIX 1 : Quatre types d'utilisateurs distincts
--- ------------------------------------------------
--- POURQUOI : Séparation des responsabilités et principe du moindre privilège
--- - admin_fitness : Gestion système et création d'objets
--- - coach_fitness : Spécialisé dans les données d'entraînement
--- - nutritionniste_fitness : Spécialisé dans les données alimentaires
--- - user_fitness : Utilisateur final de l'application
---
--- CHOIX 2 : Mots de passe complexes (10+ caractères)
--- ---------------------------------------------------
--- POURQUOI : Sécurité renforcée contre attaques par force brute
--- FORMAT : Minimum 10 caractères avec majuscules, minuscules, chiffres, symboles
---
--- CHOIX 3 : Quotas d'espace disque différenciés
--- ----------------------------------------------
--- POURQUOI : Limite l'utilisation des ressources selon le rôle
--- - admin_fitness : UNLIMITED (création de toutes les tables)
--- - coach_fitness : 50MB (pas de création d'objets, usage normal)
--- - nutritionniste_fitness : 50MB (pas de création d'objets, usage normal)
--- - user_fitness : 100MB (stockage de données personnelles)
---
--- CHOIX 4 : Privilèges système minimaux
--- --------------------------------------
--- POURQUOI : Principe du moindre privilège
--- - Tous : CREATE SESSION (connexion uniquement)
--- - admin_fitness : + CREATE TABLE, CREATE VIEW, CREATE SEQUENCE, etc.
--- - Autres : Pas de privilèges système supplémentaires (reçoivent via rôles)
--- ============================================
-
 
 -- ============================================
 -- 1. CREATION DE L'ADMINISTRATEUR

@@ -1,7 +1,11 @@
 -- ============================================
 -- CHAPITRE 1/2 : CRÉATION DES TABLES
--- Fichier : 03_creation_tables.sql
 -- Connexion : admin_fitness
+-- ============================================
+-- ============================================
+-- DESCRIPTION :
+-- Création des tables sur base du schéma établi 
+-- au Chapitre 1
 -- ============================================
 
 -- ============================================
@@ -107,27 +111,4 @@ CREATE TABLE SUIVI_ALIMENTAIRE (
     CONSTRAINT fk_suivi_meal FOREIGN KEY (MealID) REFERENCES REPAS(MealID) ON DELETE CASCADE
 );
 
--- ============================================
--- VÉRIFICATIONS
--- ============================================
-
-PROMPT ========================================
-PROMPT Tables créées :
-PROMPT ========================================
-
-SELECT table_name 
-FROM user_tables 
-ORDER BY table_name;
-
-PROMPT ========================================
-PROMPT Contraintes d intégrité :
-PROMPT ========================================
-
-SELECT constraint_name, constraint_type, table_name
-FROM user_constraints
-ORDER BY table_name, constraint_type;
-
-PROMPT ========================================
-PROMPT Création des tables terminée !
-PROMPT Prochaine étape : insertion de données
-PROMPT ========================================
+-- FIN DU SCRIPT

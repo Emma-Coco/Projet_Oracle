@@ -6,20 +6,15 @@
 -- ============================================
 -- DESCRIPTION :
 -- Ce script attribue les privilèges sur les tables aux rôles fonctionnels.
--- Doit être exécuté APRÈS 05_profils_roles_SYSTEM.sql
 -- ============================================
--- JUSTIFICATION DES CHOIX :
---
--- CHOIX 1 : Séparation stricte coach / nutritionniste
+-- Séparation stricte coach / nutritionniste
 -- ----------------------------------------------------
--- POURQUOI : Principe du moindre privilège + conformité RGPD
 -- - Coach : Aucun accès aux données nutritionnelles (REPAS, SUIVI_ALIMENTAIRE)
 -- - Nutritionniste : Aucun accès aux données d'entraînement (EXERCICE, SEANCE, DETAILS)
 -- - Justification : Limite l'exposition des données sensibles de santé
 --
--- CHOIX 2 : user_fitness accède uniquement via vues
+-- user_fitness accède uniquement via vues
 -- --------------------------------------------------
--- POURQUOI : Isolation des données par utilisateur
 -- - Pas de privilèges directs sur les tables sensibles
 -- - Accès uniquement aux catalogues (EXERCICE, REPAS) en lecture
 -- - Accès aux données personnelles via vues filtrées (v_mes_seances, etc.)
@@ -78,16 +73,4 @@ GRANT SELECT ON REPAS TO role_utilisateur;
 
 COMMIT;
 
-
--- ============================================
--- VERIFICATION
--- ============================================
-
-SELECT grantee, table_name, privilege
-FROM user_tab_privs_made
-WHERE grantee LIKE 'ROLE_%'
-ORDER BY grantee, table_name, privilege;
-
--- Résultat attendu : ~22 lignes de privilèges
-
--- FIN DU SCRIPT (PARTIE admin_fitness)
+-- FIN DU SCRIPT
