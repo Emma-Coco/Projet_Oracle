@@ -73,15 +73,15 @@ print("=" * 70)
 
 # Vérifier que Final_data.csv existe
 if not os.path.exists('Final_data.csv'):
-    print("❌ ERREUR: Final_data.csv introuvable dans le répertoire courant")
+    print("ERREUR: Final_data.csv introuvable dans le répertoire courant")
     exit(1)
 
 # Vérifier que 03_creation_tables.sql existe
 if not os.path.exists('03_creation_tables.sql'):
-    print("❌ ERREUR: 03_creation_tables.sql introuvable dans le répertoire courant")
+    print("ERREUR: 03_creation_tables.sql introuvable dans le répertoire courant")
     exit(1)
 
-print("\n📖 Lecture du CSV...")
+print("\nLecture du CSV...")
 df = pd.read_csv('Final_data.csv')
 print(f"✓ {len(df)} lignes chargées")
 
@@ -130,7 +130,7 @@ print(f"✓ {len(meals)} repas uniques")
 output_file = '04_insertion_donnees.sql'
 COMMIT_INTERVAL = 1000  # COMMIT tous les 1000 INSERT
 
-print(f"\n✍️  Génération du script SQL: {output_file}")
+print(f"\n  Génération du script SQL: {output_file}")
 
 with open(output_file, 'w', encoding='utf-8') as f:
     
@@ -268,9 +268,9 @@ with open(output_file, 'w', encoding='utf-8') as f:
 
 file_size_mb = os.path.getsize(output_file) / (1024 * 1024)
 
-print(f"✅ Script SQL généré avec succès!")
+print(f"  Script SQL généré avec succès!")
 print(f"   Fichier: {output_file}")
 print(f"   Taille: {file_size_mb:.1f} MB")
-print(f"\n▶️  Pour exécuter:")
+print(f"\n  Pour exécuter:")
 print(f"   sqlplus admin_fitness/password@//localhost:1521/XEPDB1 @{output_file}")
 print("\n" + "=" * 70)
